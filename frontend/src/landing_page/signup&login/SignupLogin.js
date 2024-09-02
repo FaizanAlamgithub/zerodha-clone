@@ -127,7 +127,7 @@ function SignupLogin() {
                   Already have an account ?
                   <Link
                     style={{ textDecoration: "none" }}
-                    to="http://localhost:3000/login"
+                    to="https://zerodha-clone-dashboard-auyw.onrender.com/login"
                   >
                     Login
                   </Link>

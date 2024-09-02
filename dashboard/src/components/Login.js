@@ -87,7 +87,7 @@ function Login() {
             Don't have an account ?
             <Link
               style={{ textDecoration: "none" }}
-              to="http://localhost:3001/signup"
+              to="https://zerodha-clone-frontend-svku.onrender.com/signup"
             >
               Signup
             </Link>
