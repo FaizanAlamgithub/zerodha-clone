@@ -10,7 +10,7 @@ const Summary = () => {
   return (
     <>
       <div className="username">
-        <h6>Hi,{loggedInUser}</h6>
+        <h6>Hi, {loggedInUser}</h6>
         <hr className="divider" />
       </div>
 
