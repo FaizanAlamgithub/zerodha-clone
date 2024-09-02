@@ -25,7 +25,7 @@ function Login() {
       return handleError("All fields are require");
     }
     try {
-      const url = "http://localhost:4000/auth/login";
+      const url = "https://zerodha-clone-gtro.onrender.com/auth/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {

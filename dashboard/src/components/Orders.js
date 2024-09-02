@@ -11,7 +11,7 @@ const Orders = () => {
 
   const fetchOrders = () => {
     axios
-      .get("http://localhost:4000/buyOrders")
+      .get("https://zerodha-clone-gtro.onrender.com/buyOrders")
       .then((response) => {
         setBuyOrders(response.data);
       })
@@ -22,7 +22,7 @@ const Orders = () => {
 
   const handleDelete = (orderId) => {
     axios
-      .delete(`http://localhost:4000/deleteOrder/${orderId}`)
+      .delete(`https://zerodha-clone-gtro.onrender.com/deleteOrder/${orderId}`)
       .then((response) => {
         alert(response.data.message);
         fetchOrders(); // Refresh orders after deletion
