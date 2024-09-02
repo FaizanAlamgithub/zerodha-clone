@@ -11,7 +11,7 @@ const Orders = () => {
 
   const fetchOrders = () => {
     axios
-      .get("http://localhost:4000/buyOrders")
+      .get("https://zerodha-clone-gtro.onrender.com/buyOrders")
       .then((response) => {
         setBuyOrders(response.data);
       })
