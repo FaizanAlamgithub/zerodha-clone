@@ -22,7 +22,7 @@ const Orders = () => {
 
   const handleDelete = (orderId) => {
     axios
-      .delete(`http://localhost:4000/deleteOrder/${orderId}`)
+      .delete(`https://zerodha-clone-gtro.onrender.com/deleteOrder/${orderId}`)
       .then((response) => {
         alert(response.data.message);
         fetchOrders(); // Refresh orders after deletion
