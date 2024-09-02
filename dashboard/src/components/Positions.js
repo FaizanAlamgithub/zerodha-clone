@@ -12,7 +12,7 @@ const Positions = () => {
         console.log(res.data);
         setAllPositions(res.data);
       });
-  }, [setAllPositions]);
+  }, []);
 
   return (
     <>

@@ -7,7 +7,7 @@ const Orders = () => {
 
   useEffect(() => {
     fetchOrders();
-  }, [fetchOrders]);
+  }, []);
 
   const fetchOrders = () => {
     axios

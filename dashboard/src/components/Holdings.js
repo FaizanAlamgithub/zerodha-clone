@@ -14,7 +14,7 @@ const Holdings = () => {
         console.log(res.data);
         setAllHoldings(res.data);
       });
-  }, [setAllHoldings]);
+  }, []);
 
   const labels = allHoldings.map((subArray) => subArray["name"]);
 
