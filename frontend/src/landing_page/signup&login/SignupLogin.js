@@ -58,7 +58,8 @@ function SignupLogin() {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = "http://localhost:3000/login";
+          window.location.href =
+            "https://zerodha-clone-dashboard-auyw.onrender.com/login";
         }, 1000);
       } else if (error) {
         const details = error?.details[0].message;
