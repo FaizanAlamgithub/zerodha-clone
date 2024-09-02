@@ -24,7 +24,7 @@ function Menu() {
 
   useEffect(() => {
     setLoggedInUser(localStorage.getItem("loggedInUser"));
-  }, []);
+  }, [setLoggedInUser]);
 
   const handleLogout = (e) => {
     localStorage.removeItem("token");

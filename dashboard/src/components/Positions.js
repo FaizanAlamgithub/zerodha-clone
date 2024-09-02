@@ -6,11 +6,13 @@ const Positions = () => {
   const [allPositions, setAllPositions] = useState([]);
 
   useEffect(() => {
-    axios.get("https://zerodha-clone-gtro.onrender.com/allPositions").then((res) => {
-      console.log(res.data);
-      setAllPositions(res.data);
-    });
-  }, []);
+    axios
+      .get("https://zerodha-clone-gtro.onrender.com/allPositions")
+      .then((res) => {
+        console.log(res.data);
+        setAllPositions(res.data);
+      });
+  }, [setAllPositions]);
 
   return (
     <>
