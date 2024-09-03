@@ -87,3 +87,14 @@ code {
   padding: 10px;
   align-items: center;
 }
+
+#menu:active {
+  color: #6098da;
+}
+
+#menu:focus {
+  color: #6098da;
+}
+#menu:hover {
+  color: #6098da;
+}

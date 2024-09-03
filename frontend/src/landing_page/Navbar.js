@@ -25,6 +25,7 @@ function Navbar() {
             <li class="nav-item">
               <Link
                 class="nav-link active px-4"
+                id="menu"
                 aria-current="page"
                 to="/signup"
               >
@@ -34,6 +35,7 @@ function Navbar() {
             <li class="nav-item">
               <Link
                 class="nav-link active px-4"
+                id="menu"
                 aria-current="page"
                 to="/about"
               >
@@ -43,6 +45,7 @@ function Navbar() {
             <li class="nav-item ">
               <Link
                 class="nav-link active px-4"
+                id="menu"
                 aria-current="page"
                 to="/products"
               >
@@ -52,6 +55,7 @@ function Navbar() {
             <li class="nav-item">
               <Link
                 class="nav-link active px-4"
+                id="menu"
                 aria-current="page"
                 to="/pricing"
               >
@@ -61,6 +65,7 @@ function Navbar() {
             <li class="nav-item">
               <Link
                 class="nav-link active px-4"
+                id="menu"
                 aria-current="page"
                 to="/support"
               >
