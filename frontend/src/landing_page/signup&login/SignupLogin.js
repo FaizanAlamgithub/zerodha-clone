@@ -268,7 +268,7 @@ function SignupLogin() {
               <button className="auth-btn" type="submit">
                 Signup
               </button>
-              <span>
+              <span style={{ margin: "14px 0" }}>
                 Already have an account?{" "}
                 <Link
                   style={{ textDecoration: "none" }}

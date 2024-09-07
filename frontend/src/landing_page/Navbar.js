@@ -98,7 +98,7 @@ function Navbar() {
       >
         <span
           className="navbar-toggler-icon"
-          style={{ fontSize: "1.8rem" }}
+          style={{ fontSize: "1.5rem" }}
         ></span>
       </button>
 

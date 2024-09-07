@@ -11,6 +11,10 @@
   width: 100%;
   height: auto;
 }
+.logo-img {
+  width: 120px;
+  padding: 1.5rem; /* Default size for mobile */
+}
 
 .auth-container {
   background-color: #fff;
@@ -50,8 +54,13 @@
   }
 
   .logo-img {
-    width: 40px; /* Reduce logo size on mobile view */
-    height: auto; /* Maintain aspect ratio */
+    width: 100px;
+    padding-bottom: 2rem; /* Reduce the logo size on tablet and desktop */
+  }
+}
+@media (min-width: 992px) {
+  .logo-img {
+    width: 80px; /* Further reduce the logo size on larger desktops */
   }
 }
 
@@ -97,7 +106,7 @@
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
-  margin: 5px 0;
+  margin: 40px 0;
 }
 
 .auth-btns {
@@ -109,11 +118,6 @@
   padding: 5px;
   cursor: pointer;
   margin: 5px 0;
-}
-
-.img-logo {
-  padding: 10px;
-  align-items: center;
 }
 
 #menu:active {
