@@ -12,13 +12,13 @@
 
 .signup-button {
   width: 300px;
-  height: 50px;
+  height: 80px;
   background-color: #387ed1;
   border: none; /* Removes default border */
   border-radius: 0.5rem; /* Rounded corners */
   color: white; /* Button text color */
   padding: 0.5rem 1rem; /* Adjust padding for button */
-  font-size: 1rem; /* Adjust font size as needed */
+  font-size: 2rem; /* Adjust font size as needed */
 }
 .signup-button:hover {
   background-color: #2a60a3;
@@ -28,14 +28,13 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .signup-btn {
-    max-width: 300px; /* Adjust for smaller screens */
+    max-width: 300px;
   }
   .signup-button {
     width: 250px;
-    height: 40px;
     background-color: #387ed1;
   }
   .logo-image {
-    width: 26rem;
+    width: 22rem;
   }
 }
