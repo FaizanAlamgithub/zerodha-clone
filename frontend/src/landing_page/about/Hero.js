@@ -102,7 +102,7 @@ function Hero() {
     <div className="container p-5">
       <div className="row">
         <div className="col text-center mb-5">
-          <h1 className="text-muted hero-heading">
+          <h1 className="fs-3 text-muted hero-heading">
             We pioneered the discount broking model in India. Now, we are
             breaking ground with our technology.
           </h1>
