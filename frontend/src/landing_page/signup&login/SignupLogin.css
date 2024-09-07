@@ -57,6 +57,9 @@
     width: 100px;
     padding-bottom: 2rem; /* Reduce the logo size on tablet and desktop */
   }
+  .img-responsive {
+    display: none;
+  }
 }
 @media (min-width: 992px) {
   .logo-img {
