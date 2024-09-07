@@ -188,7 +188,7 @@ function Team() {
           <div className="col-sm-6 col-md-4 pt-5">
             <img
               className="rounded-circle team-img"
-              src="media/images/nikhil.jpg"
+              src="media/images/Nikhil.jpg"
               alt="nikhil-image"
             />
             <h3 className="mt-4 text-muted fs-5">Nikhil Kamath</h3>
@@ -197,7 +197,7 @@ function Team() {
           <div className="col-sm-6 col-md-4 pt-5">
             <img
               className="rounded-circle team-img"
-              src="media/images/kailash.jpg"
+              src="media/images/Kailash.jpg"
               alt="kailash-image"
             />
             <h3 className="mt-4 text-muted fs-5">Dr. Kailash Nadh</h3>
@@ -206,7 +206,7 @@ function Team() {
           <div className="col-sm-6 col-md-4 pt-5">
             <img
               className="rounded-circle team-img"
-              src="media/images/venu.jpg"
+              src="media/images/Venu.jpg"
               alt="venu-image"
             />
             <h3 className="mt-4 text-muted fs-5">Venu Madhav</h3>
@@ -217,7 +217,7 @@ function Team() {
           <div className="col-sm-6 col-md-4 pt-5">
             <img
               className="rounded-circle team-img"
-              src="media/images/hanan.jpg"
+              src="media/images/Hanan.jpg"
               alt="hanan-image"
             />
             <h3 className="mt-4 text-muted fs-5">Hanan Delvi</h3>
@@ -226,7 +226,7 @@ function Team() {
           <div className="col-sm-6 col-md-4 pt-5">
             <img
               className="rounded-circle team-img"
-              src="media/images/seema.jpg"
+              src="media/images/Seema.jpg"
               alt="seema-image"
             />
             <h3 className="mt-4 text-muted fs-5">Seema Patil</h3>
@@ -246,7 +246,7 @@ function Team() {
           <div className="col-12 pt-5">
             <img
               className="rounded-circle team-img"
-              src="media/images/austin.jpg"
+              src="media/images/Austin.jpg"
               alt="austin-image"
             />
             <h3 className="mt-4 text-muted fs-5">Austin Prakesh</h3>

@@ -21,9 +21,9 @@
 /* Responsive adjustments for mobile */
 @media (max-width: 768px) {
   .hero-heading {
-    padding: 0 1rem;
+    padding: 0;
     margin-bottom: 50px;
-    font-size: 24px;
+    font-size: 27px;
   }
 
   .content-wrapper {
