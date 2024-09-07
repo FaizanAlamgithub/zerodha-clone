@@ -1,4 +1,5 @@
 import React from "react";
+import "./OpenAccount.css";
 
 function OpenAccount() {
   return (
@@ -10,17 +11,10 @@ function OpenAccount() {
             Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and
             F&O trades.
           </p>
-          <button
-            className="p-2 btn btn-primary fs-5 mt-5"
-            style={{
-              width: "20%",
-              margin: "0 auto",
-              backgroundColor: "#387ed1",
-              color: "white",
-            }}
-          >
-            Sign up for free
-          </button>
+          {/* Call to Action Button */}
+          <div className="col-12 signup-btn">
+            <button className="p-2 btn signup-button">Sign up for free</button>
+          </div>
         </div>
       </div>
     </div>
