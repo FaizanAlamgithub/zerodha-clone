@@ -40,7 +40,7 @@ function Hero() {
           <img
             src="media/images/landing.png"
             alt="Hero image"
-            className="img-fluid mb-5"
+            className="logo-image mb-5"
           />
         </div>
 

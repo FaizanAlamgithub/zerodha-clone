@@ -6,6 +6,9 @@
   align-items: center; /* Centers content vertically (if needed) */
   margin: 0 auto; /* Centers the container itself horizontally */
 }
+.logo-image {
+  width: 750px;
+}
 
 .signup-button {
   width: 300px;
@@ -31,5 +34,8 @@
     width: 250px;
     height: 40px;
     background-color: #387ed1;
+  }
+  .logo-image {
+    width: 26rem;
   }
 }
